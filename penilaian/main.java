@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package penilaian;
 
-/**
- *
- * @author Asus
- */
+
 public class main {
-    
+    public static void main(String[] args) {
+        NilaiAkhir syauqi = new NilaiAkhir("ahmad syauqi khairi","2110010484",85,80,90);
+        System.out.println("============= View Data ============");
+        System.out.println("nama \t   "+syauqi.getNama());
+        System.out.println("npm \t    "+syauqi.getNpm());
+        System.out.println("nilai akhir \t "+syauqi.hitungNilaiAkhir());
+        System.out.println("============= View Data ============");
+        System.out.println("");
+    }
 }

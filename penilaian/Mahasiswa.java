@@ -2,7 +2,7 @@
 package penilaian;
 
 public class Mahasiswa {
-  String nama,npm;  
+ private String nama,npm;  
 
     public Mahasiswa(String nama, String npm) {
         this.nama = nama;
